@@ -1,0 +1,64 @@
+//Question 1
+//Program to search for a particular character in a string
+let str="ranjithranjan";
+let char ="a";
+if str.indexOf(char)!=-1){
+	   console.log("element $(char) is present at position ${str.indexOf(char)}");    
+}
+else{
+   console.log("elements not  found");
+}
+
+
+//Question 2
+//Program to convert minutes to seconds
+let minute = 30;
+let second = minute*60;
+console.log(second);
+
+
+//Question 3
+//Program to search for a array in a string
+let arr=["hello","welcome","the","javascript","world"];
+arr.forEach((ele,i)=>{
+	    if (ele === "good"){
+	    	    console.log("${ele} is present at position ${i}");
+	    }
+})
+
+
+//Question 4
+//Program to display only elements containing 'a' in them from a array
+let arr1=["hello","welcome","the","javascript","world"];
+arr1.forEach((ele,i)=>{
+		    if (ele.match(/a/gi)){
+	    	      console.log(ele);
+	    	    }
+})
+//gi is used for global case insensitive
+
+
+//Question 5
+//Print an array in reverse order
+let arr2=["hello","welcome","the","javascript","world"];
+let arr3=arr2.reverse();
+console.log(arr3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
